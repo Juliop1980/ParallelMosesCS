@@ -5,6 +5,7 @@ out/
 .iws
 .xml
 /.idea/tasks.xml
+/.idea/workspace.xml
 
 ### Eclipse ###
 .apt_generated
