@@ -7,5 +7,12 @@ div {
 padding-right: 30px;
 padding-bottom:50px;
 padding-left:80px; */
+white-space: nowrap;
+overflow: hidden;
+}
+
+#HASH {
+  display: flex;
+  justify-content: space-between;
 }
 

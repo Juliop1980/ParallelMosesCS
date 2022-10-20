@@ -30,6 +30,8 @@
 
 <body>
 <h4> Parallel Moses System</h4>
+
+<div id = "HASH">
    <div class="input-group">
      <div class="form-outline">
        <input type="search" id="form1" class="form-control" />
@@ -40,6 +42,12 @@
      </button>
    </div>
 
+
+
+   <button type="button" class="btn btn-primary btn-sm">Update Modules</button>
+
+
+</div>
   </body>
   <!-- MDB -->
   <script
