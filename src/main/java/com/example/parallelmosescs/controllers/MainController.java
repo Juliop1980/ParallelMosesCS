@@ -7,16 +7,16 @@ import org.springframework.web.servlet.ModelAndView;
 
 //@RestController
 @Controller
-public class TestController {
+public class MainController {
 //
 //    @RequestMapping("/")
 //    public String home(){
 //        return "Hello World!";
 //    }
 
-    @RequestMapping(value="/welcome")
+    @RequestMapping(value="/")
     public ModelAndView firstPage() {
 //        System.out.println("i am working");
-        return new ModelAndView("welcome");
+        return new ModelAndView("mainpage");
     }
 }
